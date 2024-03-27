@@ -4,11 +4,12 @@ package org.example;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello Kiet");
-
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
+        System.out.println("BẢNG CỬU CHƯƠNG");
+        for(int i= 2; i<10 ; i++){
+            System.out.println("Bảng cửu chương " + i +":");
+            for (int j = 1 ; j <= 10 ; j++){
+                System.out.println(i + " x " + j + " = " + i*j);
+            }
         }
     }
 }
