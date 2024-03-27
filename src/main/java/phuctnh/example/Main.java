@@ -6,7 +6,6 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String a = "1";
         Scanner sc = new Scanner(System.in);
         int choose = sc.nextInt();
         switch (choose)
